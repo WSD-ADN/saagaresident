@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/build/tailwind.css">
+    <link rel="stylesheet" href="src/tailwind.css">
+    <title>Cards</title>
+</head>
+<body class="overflow-hidden min-h-screen bg-black">
+    <div class="slider grid h-screen overflow-hidden" data-state='slides'>
+
+        <div class="fixed z-50 bottom-0 flex justify-center m-4 bottomnav gap-5 ">
+            <button class=" border-none flex items-center px-2 py-1 mx-2 bg-transparent  hover:scale-90 transition-all duration-300 ease-in-out" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-white hover:text-amber-400  rounded-full ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
+                </svg>                  
+            </button>
+            <button class=" border-none flex items-center px-2 py-1 mx-2 bg-transparent hover:scale-90 transition-all duration-300 ease-in-out" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-white hover:text-amber-400 rounded-full ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 15l6-6m0 0l-6-6m6 6H9a6 6 0 000 12h3" />
+                </svg>
+            </button>
+        </div>
+          
+
+        <div class="sliderSlides grid justify-center items-center h-full ">
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex opacity-0 font-normal z-20 justify-center">Resident Evil Zero</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer ">
+                    <img  src="/src/img/residen_zero.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl -main">
+                    <img  src="/src/img/residen_zero_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_2_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl  ">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_1.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_1_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_1_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil 2</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_2_1.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_2_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen2_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil 3</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_3_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_3_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil: Code Veronica</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_V.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_V_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_V_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil 4</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_4.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_4_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_4_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil Revelations</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_reve.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_reve_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_reve_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil Revelations 2</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_reve2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_reve2_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_reve2_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil 5</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_5.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_5_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_5_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil 6</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_6.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_6_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_6_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil 7</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_7.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_7_1.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_7_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+            <div class="slide grid justify-center items-center h-fullmx-auto ">
+                <h2 class="slideTitle text-size-vw md:text-md-size-vw flex  opacity-0 font-normal z-20 justify-center">Resident Evil Village</h2>
+                <div class="slideImages grid justify-center items-center w-screen hover:brightness-110 hover:contrast-125 transition-all duration-300 ease-in-out cursor-pointer">
+                    <img  src="/src/img/residen_village.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl ">
+                    <img  src="/src/img/residen_village_2.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto -main rounded-3xl">
+                    <img  src="/src/img/residen_village_3.jpg" alt="imagen resident 2" class="slideImage slideImageBlur object-contain w-8/12 mx-auto rounded-3xl">
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="/src/loadingBlur.js"></script>
+    <script src="/src/main.js"></script>
+</body>
+</html>
